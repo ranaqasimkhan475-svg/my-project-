@@ -1,8 +1,6 @@
 name: Hourly AI Image Post
 
 on:
-  schedule:
-    - cron: '15 * * * *'  # har ghante ke shuru mein chalega (UTC time)
   workflow_dispatch:        # manually bhi "Run workflow" button se chala sakte hain
 
 jobs:
